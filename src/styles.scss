@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     color: #616161;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
@@ -17,21 +17,21 @@
   }
   
   router-outlet + *  {
-    padding: 0 16px;
+    padding: 0 25px;
   }
   
   /* Text */
   
   h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
   
   h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   
   h1, h2 {
-    font-weight: lighter;
+    font-weight: 300;
   }
   
   p {
@@ -72,9 +72,9 @@
   .button, button {
     display: inline-flex;
     align-items: center;
-    padding: 8px 16px;
-    border-radius: 2px;
-    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 16px;
     cursor: pointer;
     background-color: #1976d2;
     color: white;
@@ -135,3 +135,5 @@
     border-radius: 2px;
     background-color: #EEEEEE;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
